@@ -1,0 +1,102 @@
+{
+  "CAL0_refit_performed": false,
+  "HBR_access": false,
+  "Pc_access": false,
+  "analysis_unit": "ONE_OBJECT_DISJOINT_CONJUNCTION_EVENT",
+  "association_recomputed": false,
+  "bootstrap_performed": false,
+  "candidate_generation_performed": false,
+  "covariance_access": false,
+  "event_metrics_output": "results/g6/G6_Confirmatory_Event_Metrics.csv",
+  "events": 6927,
+  "fixed_parameters": {
+    "TCA_radius_s": 7.105892,
+    "Wilson_z": 1.959963984540054,
+    "miss_distance_radius_km": 78.75554652312711,
+    "nominal_coverage": 0.9,
+    "quantile_rule": "LINEAR_EMPIRICAL_QUANTILE_H=(N-1)Q"
+  },
+  "method_retuning_performed": false,
+  "network_requests": 0,
+  "orbital_propagation_performed": false,
+  "primary_Ed": {
+    "absolute_deviation_from_0p90": 0.07985085538821468,
+    "coverage_denominator": 6839,
+    "coverage_successes": 5609,
+    "fixed_radius": 78.75554652312711,
+    "interpretation": {
+      "classification": "NOMINAL 90% COVERAGE NOT SUPPORTED",
+      "direction": "UNDERCOVERAGE"
+    },
+    "maximum": 6033.48487988927,
+    "mdistance_used": false,
+    "median": 10.827391262873071,
+    "minimum_confirmatory_support": 141,
+    "n": 6839,
+    "nominal_coverage": 0.9,
+    "observed_coverage": 0.8201491446117853,
+    "p90": 150.46830852970885,
+    "p95": 290.08385140933035,
+    "p99": 1054.9042558766325,
+    "reference_field": "min_range",
+    "units": "km",
+    "wilson_95_lower": 0.8108678292831654,
+    "wilson_95_upper": 0.829071006995921
+  },
+  "process_estimands": {
+    "evaluable": {
+      "denominator": 6927,
+      "proportion": 0.9969683845820702,
+      "successes": 6906,
+      "wilson_95_lower": 0.9953696578450342,
+      "wilson_95_upper": 0.9980162161367818
+    },
+    "valid_association": {
+      "denominator": 6927,
+      "proportion": 0.9872960877724845,
+      "successes": 6839,
+      "wilson_95_lower": 0.9843755837114679,
+      "wilson_95_upper": 0.9896764185036723
+    }
+  },
+  "reference_source": {
+    "mdistance_used": false,
+    "path": "data/raw/g2/IVV_Releasable_Dataset_SFSH_DiscreteHBR.csv.gz",
+    "physical_reference_miss_distance_field": "min_range",
+    "raw_rows_scanned": 283595,
+    "sha256": "b8e49b9c40f974e5ff37e26ade3a855813436bb4c6dab4d7ddeccc8ff5752d39",
+    "valid_associated_reference_rows_used": 6839
+  },
+  "secondary_Et": {
+    "absolute_deviation_from_0p90": 0.15062143588243893,
+    "coverage_denominator": 6839,
+    "coverage_successes": 5125,
+    "fixed_radius": 7.105892,
+    "maximum": 287.930329,
+    "median": 2.123036,
+    "n": 6839,
+    "nominal_coverage": 0.9,
+    "observed_coverage": 0.7493785641175611,
+    "p90": 19.642622199999998,
+    "p95": 36.65898059999998,
+    "p99": 112.17826561999992,
+    "units": "s",
+    "wilson_95_lower": 0.7389695245237844,
+    "wilson_95_upper": 0.7595076096502196
+  },
+  "status": "G6_CONFIRMATORY_METRICS_PASS",
+  "temporal_reporting": {
+    "Ed_coverage_max": 0.8528769118718136,
+    "Ed_coverage_min": 0.7577777777777778,
+    "TEMPORAL_INSTABILITY_FLAG": true,
+    "interpretation": "DESCRIPTIVE_TEMPORAL_TRANSPORT_STABILITY_EVIDENCE;_NOT_FIVE_CO_PRIMARY_HYPOTHESIS_TESTS",
+    "strata": [
+      "G6-T1",
+      "G6-T2",
+      "G6-T3",
+      "G6-T4",
+      "G6-T5"
+    ]
+  },
+  "temporal_summary_output": "results/g6/G6_Confirmatory_Temporal_Summary.csv"
+}

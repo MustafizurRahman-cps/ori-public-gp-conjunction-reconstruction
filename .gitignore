@@ -1,0 +1,60 @@
+# Python/runtime clutter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Package, editor, and OS noise
+node_modules/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and local render artifacts
+*.tmp
+*.temp
+*.bak
+~$*
+docs/control/*.__tmp__
+legacy/project_snapshot.__initializing__/
+
+# Large immutable source archive; its exact path/hash are tracked in provenance records
+legacy/source_archive/Group-1 (Graduate).zip
+
+# Frozen legacy snapshot; reconstructed from the immutable archive and tracked manifest
+legacy/project_snapshot/
+
+# Local authenticated Space-Track G5 acquisition outputs and resumability state
+data/raw/g5/
+data/raw/g2/AerospaceIVVDataset_20251009a_Size_ScreeningVolumes.csv.gz
+data/raw/g2/Conjunction_Screening_Testset_Users_Guide.pdf
+tmp/
+tables/publication/*.inspect.ndjson
+
+# Authenticated G6 Space-Track acquisition evidence - local only
+data/raw/g6/
+results/g6/G6_PreOutcome_Candidates.csv
+data/raw/g7/G7D_H3_Candidate_Work.sqlite3
+data/raw/g7/G7D_H7_Candidate_Work.sqlite3
+results/g7/G7D_H3_Candidates.csv
+results/g7/G7D_H7_Candidates.csv
+
+# G7 R6 A2 local SQLite work artifacts
+/data/raw/g7/G7R6_A2_Materialized.sqlite3
+/data/raw/g7/G7R6_A2_Materialized.sqlite3-*
+/data/raw/g7/G7R6_A2_Materialized.incomplete.sqlite3
+/data/raw/g7/G7R6_A2_Materialized.incomplete.sqlite3-*
+/data/raw/g7/G7R6_A2_Work.sqlite3
+/data/raw/g7/G7R6_A2_Work.sqlite3-*
+
+# G7 R6 A2 resumable production checkpoint
+data/raw/g7/G7R6_A2_Production_Work.sqlite3
+data/raw/g7/G7R6_A2_Production_Work.sqlite3-wal
+data/raw/g7/G7R6_A2_Production_Work.sqlite3-shm
+/data/raw/g7/G7R6_A2_Metric_Derived.sqlite3*

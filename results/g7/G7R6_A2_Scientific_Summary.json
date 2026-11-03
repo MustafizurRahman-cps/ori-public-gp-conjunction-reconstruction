@@ -1,0 +1,38 @@
+{
+  "A0_execution_performed": false,
+  "authorization": {
+    "authorization_head": "47bfac34117ae3e8e4360b65840d832445e4525d",
+    "authorization_tag": "g7-r6-a2-scientific-summary-execution-authorized",
+    "implementation_freeze_commit": "04854de46a4b663a2ccf92b7f15984a2b100b51d"
+  },
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20260908,
+  "candidate_generation_performed": false,
+  "events": 6927,
+  "grouped_weighting": "EVENT_EQUAL",
+  "input_hashes": {
+    "data/raw/g7/G7R6_A2_Materialized.sqlite3": "48c7052ec4599eb55e23f174cbe548b7488f0d886e2b690f50aef71902f92c8c",
+    "data/raw/g7/G7R6_A2_Metric_Derived.sqlite3": "6bdea76ca02bffe9cc33e50d8e899f898e27445198d2ed244cc0cd1692850001",
+    "docs/research/DR-0069_G7_R6_A2_Scientific_Summary_Interpretation_Spec_Freeze.md": "090e34525332bb6f8194b8dc535ade96467c4f1c930e7e5f6d6113972bed518e",
+    "docs/research/G7R6_A2_Scientific_Summary_Interpretation_Spec.md": "7fd8befe8f7e24e990b4e513d8dbd50b0f62e776000aa86b949fd53b33204615",
+    "results/g7/G7R6_A2_Metric_S05_S06_Changes.csv": "166ff82ef9587631abaa092a07e8035824093338102faac56c1dce2ae266a202",
+    "results/g7/G7R6_A2_Metric_S05_S06_Event_Status.csv": "5444c3091f4ff51db37aff343f84b9340fcda30b10098c1b7fa2d988f42e0733",
+    "results/g7/G7R6_A2_Metric_S07_Event_Lead.csv": "79bcd812d9c4e00453f6cbf43c2df5534c56fdc4a4278348696c9eeedd3fab77"
+  },
+  "network_requests": 0,
+  "next_safe_action": "INDEPENDENT_A2_SCIENTIFIC_SUMMARY_OUTPUT_AUDIT_BEFORE_INTERPRETATION",
+  "orbital_propagation_performed": false,
+  "publication_replay_opportunities": 2020081,
+  "q_object_update_rows": 4040162,
+  "quality_stability_associations": 8,
+  "quantile_convention": "INVERSE_EMPIRICAL_CDF_NO_INTERPOLATION",
+  "raw_GP_HISTORY_opened": false,
+  "reference_association_recomputed": false,
+  "s05_s06_change_rows": 99545,
+  "s05_s06_valid_events": 6886,
+  "s07_no_pre_tca_events": 26,
+  "s07_valid_events": 6901,
+  "scientific_interpretation_performed": false,
+  "secondary_14d_60d_execution_performed": false,
+  "status": "G7R6_A2_SCIENTIFIC_SUMMARY_EXECUTION_COMPLETED"
+}

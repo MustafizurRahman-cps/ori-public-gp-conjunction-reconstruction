@@ -1,0 +1,141 @@
+{
+  "CAL0_primary_90pct_Ed": {
+    "absolute_calibration_error": 0.014893617021276562,
+    "coverage_denominator": 141,
+    "fold": "B2-B5",
+    "median_envelope_radius": 82.05501203772744,
+    "method": "CAL-0",
+    "nominal_coverage": 0.9,
+    "observed_coverage": 0.9148936170212766,
+    "scope": "OOF_ALL",
+    "successes": 129,
+    "support_fraction": 1.0,
+    "supported_events": 141,
+    "target": "E_d",
+    "units": "km",
+    "unsupported_events": 0,
+    "validation_events": 141,
+    "wilson_95_lower": 0.8571335147826399,
+    "wilson_95_upper": 0.9506462531969112
+  },
+  "CALAGE_calibration_error_no_worse_than_CAL0": true,
+  "CALAGE_full_OOF_support": false,
+  "CALAGE_primary_90pct_Ed": {
+    "absolute_calibration_error": 0.005109489051094873,
+    "coverage_denominator": 137,
+    "fold": "B2-B5",
+    "median_envelope_radius": 92.13688236362334,
+    "method": "CAL-AGE",
+    "nominal_coverage": 0.9,
+    "observed_coverage": 0.9051094890510949,
+    "scope": "OOF_ALL",
+    "successes": 124,
+    "support_fraction": 0.9716312056737588,
+    "supported_events": 137,
+    "target": "E_d",
+    "units": "km",
+    "unsupported_events": 4,
+    "validation_events": 141,
+    "wilson_95_lower": 0.844414936922369,
+    "wilson_95_upper": 0.9437052723500625
+  },
+  "G6_protected_outcomes_accessed": false,
+  "OOF_event_count": 141,
+  "TraCSS_raw_row_count": 283595,
+  "TraCSS_raw_sha256": "b8e49b9c40f974e5ff37e26ade3a855813436bb4c6dab4d7ddeccc8ff5752d39",
+  "age_support_OOF": [
+    {
+      "OOF_supported_events": 116,
+      "OOF_unsupported_events": 0,
+      "OOF_validation_events": 116,
+      "age_bin": "LT1",
+      "age_bin_label": "<1 d"
+    },
+    {
+      "OOF_supported_events": 17,
+      "OOF_unsupported_events": 0,
+      "OOF_validation_events": 17,
+      "age_bin": "1_LT2",
+      "age_bin_label": "1\u2013<2 d"
+    },
+    {
+      "OOF_supported_events": 2,
+      "OOF_unsupported_events": 2,
+      "OOF_validation_events": 4,
+      "age_bin": "2_LT3",
+      "age_bin_label": "2\u2013<3 d"
+    },
+    {
+      "OOF_supported_events": 2,
+      "OOF_unsupported_events": 0,
+      "OOF_validation_events": 2,
+      "age_bin": "3_LT5",
+      "age_bin_label": "3\u2013<5 d"
+    },
+    {
+      "OOF_supported_events": 0,
+      "OOF_unsupported_events": 1,
+      "OOF_validation_events": 1,
+      "age_bin": "5_LT7",
+      "age_bin_label": "5\u2013<7 d"
+    },
+    {
+      "OOF_supported_events": 0,
+      "OOF_unsupported_events": 1,
+      "OOF_validation_events": 1,
+      "age_bin": "GE7",
+      "age_bin_label": ">=7 d"
+    }
+  ],
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 20260908,
+    "unit": "object-disjoint selected event"
+  },
+  "development_accuracy_summary": {
+    "conditional_median_absolute_miss_distance_error_km": 6.475516622226262,
+    "conditional_median_absolute_tca_error_s": 0.995923,
+    "conditional_p90_absolute_miss_distance_error_km": 64.8722255506931,
+    "conditional_p95_absolute_miss_distance_error_km": 119.99017585850964
+  },
+  "event_count": 177,
+  "frozen_input_hashes": {
+    "docs/research/G5_LStar_Final_PreCalibration_Closure.md": "424b1a6fd83d591049ec982e0c744e2fb91d34b48dc63221f68a2f377b9f9a42",
+    "docs/research/G5_LStar_ReplayTime_Amendment.md": "c23dad07a9458eb40720e9d63bd277b528cb3f7c106272460f0d17a31dc66f34",
+    "docs/research/G5_PreOutcome_Calibration_Lock_v2.md": "e1fbee0e4f793c4d974227faa7f959f3597c80788eabb93ea0786f214a63499d",
+    "docs/research/G5_PreOutcome_Calibration_Lock_v2_1_Amendment.md": "d80c91400c6f9193c8b62b3cf7868d4465ba118b88de99a8fd7373535c0e7e2c",
+    "docs/research/G5_V2_Calibration_Allocation_Register.csv": "78ea7546d0cf679fc00fcb9414c9ba7c1e032b8ec9ab981b9bc9fdb06d975514",
+    "results/g5/G5_LStar_ControlFlow_Equivalence_Audit.txt": "046d5c6a114f2022ca1ea2bafe4f095b87cf31451abeddb4f1dc198c17a7e5e4",
+    "scripts/g5/select_lstar_controlflow_amended.py": "553578f4e90b044c6a783209a756ea3accc009ecbb7a09853e8cae46503f33c2"
+  },
+  "historical_zero_row_outputs_overwritten": false,
+  "interpretation": "Empirical reconstruction-error envelope only; not covariance, collision probability, operational confidence, or external confirmation.",
+  "lstar_verifier_input_hashes": {
+    "allocation_register_sha256": "78ea7546d0cf679fc00fcb9414c9ba7c1e032b8ec9ab981b9bc9fdb06d975514",
+    "final_causal_history_audit_sha256": "541243677b3cb996dd791745c3c93c418a3ef87c916eb084fbd347aad99037a6",
+    "final_causal_history_summary_sha256": "bf3a535548979f20095746c97e4f4194954b45a5898ae8b1da04bcb2d96a127c",
+    "g4_numerics_sha256": "dc8de410b89e05ffd829563b4996b06703c31236e9a10fb56bd7f4e690048406",
+    "g4_run_summary_sha256": "d0a0a4f159a9a7eeb9763263f7a66c14b1c76bf07a2149027d17c5916ce22756",
+    "g5_v2_1_amendment_sha256": "d80c91400c6f9193c8b62b3cf7868d4465ba118b88de99a8fd7373535c0e7e2c",
+    "numerical_control_flow_amendment_sha256": "3e1c80ad906816bdc704a76c7c4ebdf2b5003c82f994399412bd71eb7889c50a",
+    "original_lstar_evaluability_sha256": "28c1c203aa493550b6cd52b6abb5164ba4a6c0758d3a0b1814d35eca59b0b78a",
+    "original_lstar_markdown_sha256": "704a8b2a15a556517bc5abb7e481a85ea2287219134c0c1b52994f35a6ec256d",
+    "original_lstar_selection_sha256": "c82906da054ee018327068eab622a81505dddddea21a6f9a4f7ea7965fcabb47"
+  },
+  "network_requests": 0,
+  "output_hashes": {
+    "results/g5/G5_Calibration_Age_Support_v2.csv": "fbbf867f41d23f07fb3aae6d0ce8bbbec97be4460d1e7c28079628da2853055b",
+    "results/g5/G5_Calibration_OOF_Summary_v2.csv": "54e273c17ec09643134792c178fdd16959d1730bf37ff8624bbc2eab19d83ffe",
+    "results/g5/G5_Event_Level_Calibration_v2.csv": "11f6900f8f87fc0671fdc195d493985562c441ed826d90bcabe91042d133ede3",
+    "results/g5/G5_Quality_Spearman_v2.csv": "c783f0c6cd3e146ca40df4d351fc760dbe4e8c7fa1e76a6d4241ae8daeeee5d4"
+  },
+  "primary_error": "absolute_miss_distance_error_km",
+  "reference_miss_distance_field": "min_range",
+  "reference_miss_distance_units": "km",
+  "replay_semantics": "latest pair-union CREATION_DATE <= t_ref - 48 h",
+  "retained_development_calibration": "CAL-0",
+  "secondary_error": "absolute_tca_error_s",
+  "selected_L_star_hours": 48,
+  "status": "G5_CALIBRATION_EXECUTED_DEVELOPMENT_ONLY",
+  "valid_associated_event_count": 177
+}

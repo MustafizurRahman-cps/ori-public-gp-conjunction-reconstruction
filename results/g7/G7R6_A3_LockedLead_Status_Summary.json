@@ -1,0 +1,56 @@
+{
+  "analysis_role": "post-confirmatory zero-propagation A3 status derivation",
+  "artifact_id": "G7R6_A3_LOCKED_LEAD_STATUS",
+  "constraints": {
+    "cal0_refit_performed": false,
+    "candidate_generation_performed": false,
+    "candidate_refinement_performed": false,
+    "failed_events_removed": false,
+    "g6_membership_changed": false,
+    "network_access_performed": false,
+    "orbital_propagation_performed": false,
+    "protected_reference_source_opened": false,
+    "raw_gp_history_opened": false,
+    "reference_reassociation_performed": false,
+    "threshold_retuning_performed": false
+  },
+  "input_sha256": {
+    "results\\g6\\G6_Confirmatory_Event_Metrics.csv": "e92553698deba0643e5c11ad48ddccab33c2f9a0fd9ce4298a6ee167860c0a79",
+    "results\\g6\\G6_PreOutcome_Candidate_Event_Status.csv": "844a4c3f90a1b5bb738f13911b5e9f99f22bfe72e01bdb43dd6242e292b7b308",
+    "results\\g6\\G6_Reference_TCA_Association.csv": "31327a65448908791928aaa41a822f02086f97662c2c89ed4ea337fec2cfa622"
+  },
+  "interpretation": {
+    "conditional_accuracy_changed": false,
+    "no_pre_tca_reconstruction_inferred": false,
+    "note": "NO_PRE-TCA_RECONSTRUCTION is reserved for the frozen sequential A2/S07 analysis and is not fabricated from the locked-lead G6 table.",
+    "purpose": "explicit retention and reporting of frozen information/failure/association status"
+  },
+  "native_terminal_status_counts": {
+    "GP_PARSE_FAILURE": 0,
+    "NO_CAUSAL_GP_OBJECT_1": 0,
+    "NO_CAUSAL_GP_OBJECT_2": 0,
+    "NO_VALID_CANDIDATE": 0,
+    "PROPAGATION_FAILURE": 1,
+    "UNASSOCIATED_REFERENCE_EVENT": 67,
+    "UNRECOVERED_REFINEMENT_FAILURE": 20,
+    "VALID_ASSOCIATED": 6839
+  },
+  "native_terminal_status_proportions_full_g6": {
+    "GP_PARSE_FAILURE": 0.0,
+    "NO_CAUSAL_GP_OBJECT_1": 0.0,
+    "NO_CAUSAL_GP_OBJECT_2": 0.0,
+    "NO_VALID_CANDIDATE": 0.0,
+    "PROPAGATION_FAILURE": 0.00014436263894903998,
+    "UNASSOCIATED_REFERENCE_EVENT": 0.009672296809585678,
+    "UNRECOVERED_REFINEMENT_FAILURE": 0.0028872527789808,
+    "VALID_ASSOCIATED": 0.9872960877724845
+  },
+  "parent_head": "f6948dcfbf2b0b1fb95226c9c8f282cf200f8640",
+  "population": {
+    "evaluable_events": 6906,
+    "evaluable_unassociated_events": 67,
+    "full_g6_events": 6927,
+    "non_evaluable_events": 21,
+    "valid_associated_events": 6839
+  }
+}

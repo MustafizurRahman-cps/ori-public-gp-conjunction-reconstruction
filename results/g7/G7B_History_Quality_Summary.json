@@ -1,0 +1,77 @@
+{
+  "CAL0_refit_performed": false,
+  "VALID_ASSOCIATED_events": 6839,
+  "analysis_role": "POST_CONFIRMATORY_HISTORY_QUALITY_ROBUSTNESS",
+  "association_recomputed": false,
+  "bootstrap": {
+    "replicates": 2000,
+    "rng_stream": "single fixed ordered quality-variable stream",
+    "seed": 20260908,
+    "unit": "object-disjoint event"
+  },
+  "candidate_generation_performed": false,
+  "canonical_state_signature": "exact inherited G5 TLE/epoch SGP4-relevant state signature",
+  "descriptive_history_windows_days": [
+    14,
+    60
+  ],
+  "evaluable_events": 6906,
+  "events": 6927,
+  "full_history_predecessor_class_counts": {
+    "LEFT_CENSORED_NO_PREDECESSOR_RETURNED": 1315,
+    "PREDECESSOR_ACQUIRED_BY_QUERY": 5032,
+    "PREDECESSOR_CAPTURED_IN_BATCH_UNION": 7507
+  },
+  "left_censor_rule": "lower_bound_utc > t_r-W",
+  "left_censored_pair_metrics_used_in_association": false,
+  "main_raw_files_expected": 1386,
+  "main_raw_files_opened": 1386,
+  "method_retuning_performed": false,
+  "network_requests": 0,
+  "next_safe_action": "INDEPENDENT_DERIVED_OUTPUT_AUDIT_WITHOUT_SECOND_RAW_HISTORY_PASS",
+  "object_local_main_rows_verified": 5153040,
+  "objects": 13854,
+  "orbital_propagation_performed": false,
+  "output_hashes": {
+    "results/g7/G7B_Event_History_Quality.csv": "d6bb1743fe84ff1b9c38ab71ea8d2246e4727ebcc519c940c93eb0b712830bbc",
+    "results/g7/G7B_History_Quality_Associations.csv": "9cf40c2790301699af5d16119869bd3d259ab13081285c1fd148bb0e38609d22",
+    "results/g7/G7B_Object_History_Quality.csv": "a05e1a33274a2a62ce17e07ca208a601bb57a9720c5f17698b134ceb93b81828"
+  },
+  "predecessor_evidence_files_opened": 0,
+  "predecessor_raw_files_opened": 0,
+  "primary_history_window_days": 30,
+  "raw_content_rehash_performed": false,
+  "state_age_G7A_crosscheck": {
+    "bootstrap_95_lower": -0.23638133046535614,
+    "bootstrap_95_upper": -0.19111321464168726,
+    "spearman_rho": -0.2135250534067239
+  },
+  "status": "G7B_SINGLE_PASS_HISTORY_ANALYSIS_PASS",
+  "transported_main_raw_rows_scanned": 5245230,
+  "window_semantics": "(t_r-W,t_r]",
+  "window_support": {
+    "14": {
+      "VALID_ASSOCIATED_complete_pair_windows": 6839,
+      "VALID_ASSOCIATED_pair_gap_supported": 6820,
+      "object_left_censored": 0,
+      "pair_left_censored": 0
+    },
+    "30": {
+      "VALID_ASSOCIATED_complete_pair_windows": 6839,
+      "VALID_ASSOCIATED_pair_gap_supported": 6834,
+      "object_left_censored": 0,
+      "pair_left_censored": 0
+    },
+    "60": {
+      "VALID_ASSOCIATED_complete_pair_windows": 6839,
+      "VALID_ASSOCIATED_pair_gap_supported": 6835,
+      "object_left_censored": 0,
+      "pair_left_censored": 0
+    }
+  },
+  "windows_days": [
+    14,
+    30,
+    60
+  ]
+}

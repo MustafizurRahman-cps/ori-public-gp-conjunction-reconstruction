@@ -1,0 +1,60 @@
+{
+  "analysis_role": "zero-propagation necessary temporal-support workload characterization",
+  "artifact_id": "G7R6_A2_TEMPORAL_SUPPORT_WORKLOAD",
+  "constraints": {
+    "cal0_refit_performed": false,
+    "candidate_generation_performed": false,
+    "candidate_refinement_performed": false,
+    "g6_membership_changed": false,
+    "network_access_performed": false,
+    "orbital_propagation_performed": false,
+    "reference_association_performed": false,
+    "s05_computed": false,
+    "s06_computed": false,
+    "s07_computed": false,
+    "sgp4_imported_or_called": false
+  },
+  "frozen_association_tolerance_minutes": 5,
+  "frozen_input_sha256": {
+    "docs\\research\\DR-0055_G7_R6_A2_Workload_Count_Freeze.md": "426491fd170c091db13dca1591d517fbd28a511367c9d9e826963f3b8ecd0a55",
+    "results\\g6\\G6_Final_Causal_History_Audit.csv": "41802759162ef4889b071aa6f15391d48a7a96cce7ededdd99c8e1d8a3ebc924",
+    "results\\g7\\G7R6_A2_Workload_Audit.txt": "2af941274e47432404c054392aaccfe438ddc7e0585f838fa6136e5899f35d08",
+    "results\\g7\\G7R6_A2_Workload_Per_Event.csv": "5947e913c18aabb135c6401808189a1b343cba168d8efb76f7918d36b91bf40f",
+    "results\\g7\\G7R6_A2_Workload_Summary.json": "11ffbfeb54b8eb51f3495948c8b10d7d173f67cf08503d4fa393c3b6ec99958a"
+  },
+  "frozen_primary_horizon_days": 5,
+  "inclusive_event_support_distribution": {
+    "maximum": 39,
+    "mean": 15.553630720369569,
+    "median": 15,
+    "minimum": 0,
+    "p90_nearest_rank": 23,
+    "p95_nearest_rank": 25,
+    "p99_nearest_rank": 30,
+    "quantile_method": "empirical nearest-rank"
+  },
+  "interpretation": "Temporal-support counts are a deterministic necessary-condition workload bound only. They are not candidate availability, association success, reconstruction accuracy, first-reconstruction lead, warning lead, collision risk, or operational performance.",
+  "parent_head": "1bbf016e601033315ea3021a3a61f280aad91c26",
+  "population": {
+    "events": 6927,
+    "frozen_eligible_A2_replay_epochs": 2020081
+  },
+  "scan": {
+    "main_raw_files_read": 1386,
+    "object_unique_support_timestamps": 138553,
+    "raw_rows_scanned": 5245230,
+    "support_window_raw_rows_retained": 138554
+  },
+  "support_rule": "A replay can only contain a candidate within the frozen association window if t_r + H >= t_ref - tau; equivalently t_r >= t_ref - (H + tau). This is necessary, not sufficient.",
+  "temporal_support": {
+    "eligible_to_support_reduction_factor": 18.74959160943011,
+    "exact_boundary_hits": 0,
+    "inclusive_reduction_fraction": 0.9466655049970768,
+    "inclusive_retained_fraction": 0.05333449500292315,
+    "inclusive_support_epochs": 107740,
+    "provably_too_early_epochs": 1912341,
+    "strict_support_epochs": 107740,
+    "zero_support_events_inclusive": 1,
+    "zero_support_events_strict": 1
+  }
+}

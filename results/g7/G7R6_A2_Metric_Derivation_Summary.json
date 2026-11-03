@@ -1,0 +1,46 @@
+{
+  "events": 6927,
+  "executor_sha256": "6fc04230f230c79053bc1e9e5a9f2887bd9842fa07f234667122a1f051b2cc51",
+  "interpretation_authorized": false,
+  "materialized_db_sha256": "48c7052ec4599eb55e23f174cbe548b7488f0d886e2b690f50aef71902f92c8c",
+  "next_safe_action": "INDEPENDENT_A2_METRIC_DERIVATION_OUTPUT_AUDIT_BEFORE_INTERPRETATION",
+  "operations": {
+    "A0_execution_authorized": false,
+    "CAL0_refit_performed": false,
+    "candidate_generation_performed": false,
+    "candidate_refinement_performed": false,
+    "network_requests": 0,
+    "orbital_propagation_performed": false,
+    "raw_GP_HISTORY_opened": false,
+    "reference_association_recomputed": false
+  },
+  "outputs": {
+    "results/g7/G7R6_A2_Metric_S05_S06_Changes.csv": "166ff82ef9587631abaa092a07e8035824093338102faac56c1dce2ae266a202",
+    "results/g7/G7R6_A2_Metric_S05_S06_Event_Status.csv": "5444c3091f4ff51db37aff343f84b9340fcda30b10098c1b7fa2d988f42e0733",
+    "results/g7/G7R6_A2_Metric_S07_Event_Lead.csv": "79bcd812d9c4e00453f6cbf43c2df5534c56fdc4a4278348696c9eeedd3fab77"
+  },
+  "primary_30d_left_censored_object_rows": 0,
+  "production_csv_sha256": "a0217011e0695c240cbc1209f671c2ad7a8cb1948093b1f8c075146819e9efdd",
+  "publication_replay_opportunities": 2020081,
+  "q01_negative_state_age_rows": 0,
+  "q02_causal_violations": 0,
+  "q06_defined_object_rows": 212892,
+  "q_object_update_rows": 4040162,
+  "resumed_from_completed_events": 0,
+  "s05_s06_change_rows": 99545,
+  "s05_s06_event_status_counts": {
+    "INSUFFICIENT_SUCCESSIVE_VALID_ASSOCIATED_RECONSTRUCTIONS": 41,
+    "VALID": 6886
+  },
+  "s07_status_counts": {
+    "NO PRE-TCA RECONSTRUCTION": 26,
+    "VALID": 6901
+  },
+  "secondary_quality_window_execution": {
+    "14d": "DEFERRED_NOT_EXECUTED_IN_PRIMARY_A2_METRIC_PASS",
+    "60d": "DEFERRED_NOT_EXECUTED_IN_PRIMARY_A2_METRIC_PASS",
+    "reason": "The frozen A2 materialization carries t_ref-120 d history, which is complete for the primary 30 d window over the t_ref-90 d reporting interval. The secondary 14/60 d sensitivity is not required for this primary execution; it remains separately frozen and must not be silently approximated from a truncated 60 d history."
+  },
+  "status": "G7R6_A2_METRIC_DERIVATION_COMPLETED",
+  "valid_associated_reconstructions": 106446
+}

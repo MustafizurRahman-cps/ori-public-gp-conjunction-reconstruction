@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this research software or its frozen derived results, cite the archived software release and the associated paper when available."
+title: "Availability-Aware Framework for Reconstructing Known LEO Conjunctions from Public GP Histories: Sequential Stability and Error-Envelope Coverage"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: Rahman
+    given-names: Mustafizur
+    orcid: "https://orcid.org/0000-0001-9519-1767"
+  - family-names: Tseng
+    given-names: "Tzu-Liang (Bill)"
+    orcid: "https://orcid.org/0000-0002-3903-529X"
+license: BSD-3-Clause
+keywords:
+  - space situational awareness
+  - conjunction reconstruction
+  - historical GP data
+  - SGP4
+  - reproducibility

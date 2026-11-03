@@ -1,0 +1,91 @@
+{
+  "analysis_role": "A2_CAUSAL_SEQUENTIAL_GEOMETRY_TEMPORAL_SUPPORT_EXECUTION",
+  "association_status_counts": {
+    "NOT_APPLICABLE_PREOUTCOME_FAILURE": 344,
+    "UNASSOCIATED_REFERENCE_EVENT": 950,
+    "VALID_ASSOCIATED": 106446
+  },
+  "candidate_rows_total": 14716478,
+  "controller_sha256": "806aff3b06c6efd82726a4d93f0a0ad9e3ab8314e9f5904e4707e38680c4f8de",
+  "environment": {
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.18.1",
+      "sgp4": "2.27"
+    },
+    "platform": "Windows-11-10.0.26100-SP0",
+    "python": "3.12.14"
+  },
+  "events_total": 6927,
+  "executor_sha256": "4a07fc8d1c96b3c82a71f7431cbe5b4b89d24ba5d984185a300286e14af5b185",
+  "final_status_counts": {
+    "NO_VALID_CANDIDATE": 3,
+    "PROPAGATION_FAILURE": 6,
+    "UNASSOCIATED_REFERENCE_EVENT": 950,
+    "UNRECOVERED_REFINEMENT_FAILURE": 335,
+    "VALID_ASSOCIATED": 106446
+  },
+  "frozen_dependency_hashes": {
+    "controller_dependency::docs/research/DR-0058_G7_R6_A2_Materialization_Implementation_and_Evidence_Freeze.md": "71c86ebd2c30bbd4d78acb20969dc365b3e9a25df142c2ecb249b5f70ef589fc",
+    "controller_dependency::results/g6/G6_Final_Causal_History_Audit.csv": "41802759162ef4889b071aa6f15391d48a7a96cce7ededdd99c8e1d8a3ebc924",
+    "controller_dependency::results/g7/G7R6_A2_Materialization_Independent_Audit.json": "9618d235f9ec1a78ed60763f3701d9f51e4b25a6cc76d8e8cad43f34fa2a50b6",
+    "controller_dependency::results/g7/G7R6_A2_Materialization_Summary.json": "697ad58a01755ab2367e7318eb3219030f952d4ca4dedcb8263d2346e0c42096",
+    "controller_dependency::results/g7/G7R6_A2_Predetermined_Pilot_Manifest.json": "c3c803e9957a1241854fa81f3e51bbe9923d7710c866fa34e08d79d907ac8cac",
+    "controller_dependency::scripts/g4/numerics.py": "dc8de410b89e05ffd829563b4996b06703c31236e9a10fb56bd7f4e690048406",
+    "controller_dependency::scripts/g5/select_lstar_controlflow_amended.py": "553578f4e90b044c6a783209a756ea3accc009ecbb7a09853e8cae46503f33c2",
+    "controller_dependency::scripts/g6/generate_g6_preoutcome_candidates.py": "bce2a4b5e4dab8d0c4e461e2acb4dbac8afe22d3ac412922ba3670a832adcecb",
+    "docs/research/DR-0061_G7_R6_A2_Pilot_Execution_and_Independent_Audit_Freeze.md": "90bfdeec9d5269cc3e7509db62fd4561f843f47a14f510f6c2037c3ed4431969",
+    "results/g7/G7R6_A2_Pilot_Execution.json": "b471ca2d8bafdeeee9e6129139653ad9cc6cfdc53093abdb87ae923b75ef2d12",
+    "results/g7/G7R6_A2_Pilot_Independent_Audit.json": "3d2a404c94b207e642c7a406e7051869bfe8896282ff7509f711e28bb37a6bb5",
+    "scripts/g7/run_g7r6_a2_controller.py": "806aff3b06c6efd82726a4d93f0a0ad9e3ab8314e9f5904e4707e38680c4f8de"
+  },
+  "interpretation": "Execution covers exactly the frozen 107,740 temporal-support replays. The remaining 1,912,341 publication replay opportunities remain in the frozen schedule but are not propagated because they cannot reach the frozen reference-association interval. This summary is execution evidence; scientific S05/S06/S07 and other A2 metrics require a separately reviewed analysis stage.",
+  "materialized_db_sha256": "48c7052ec4599eb55e23f174cbe548b7488f0d886e2b690f50aef71902f92c8c",
+  "next_safe_action": "INDEPENDENT_FULL_PRODUCTION_OUTPUT_AUDIT_BEFORE_A2_METRICS",
+  "numerical_constants": {
+    "ASSOCIATION_TOLERANCE_MIN": 5.0,
+    "COARSE_STEP_S": 10.0,
+    "DEDUP_DISTANCE_TOLERANCE_KM": 1e-06,
+    "DEDUP_TIME_TOLERANCE_S": 0.01,
+    "PRIMARY_HORIZON_S": 432000.0,
+    "RECOVERY_DISTANCE_TOLERANCE_KM": 1e-06,
+    "RECOVERY_GRID_STEP_S": 0.01,
+    "RECOVERY_TCA_TOLERANCE_S": 0.5,
+    "RECOVERY_WINDOW_EXPANSION_S": 5.0,
+    "REFINEMENT_TOLERANCE_S": 0.01
+  },
+  "operations": {
+    "CAL0_refit_performed": false,
+    "SGP4_orbital_propagation_performed": true,
+    "candidate_generation_performed": true,
+    "materialized_SQLite_read": true,
+    "network_requests": 0,
+    "raw_GP_HISTORY_opened": false,
+    "reference_association_performed": true,
+    "reference_miss_distance_accessed": false
+  },
+  "parent_commit": "b257cc1ba6942d6ed0fc9b32502e8ed493650856",
+  "parent_tag": "g7-r6-a2-pilot-execution-frozen",
+  "positive_support_events": 6926,
+  "preoutcome_status_counts": {
+    "CANDIDATE_SET_READY": 107396,
+    "NO_VALID_CANDIDATE": 3,
+    "PROPAGATION_FAILURE": 6,
+    "UNRECOVERED_REFINEMENT_FAILURE": 335
+  },
+  "publication_replay_opportunities": 2020081,
+  "raw_candidate_rows_total": 29370922,
+  "recovered_local_inconsistency_count_total": 13615,
+  "rejected_local_inconsistency_count_total": 13615,
+  "replay_results_written": 107740,
+  "result_csv_sha256": "a0217011e0695c240cbc1209f671c2ad7a8cb1948093b1f8c075146819e9efdd",
+  "resumed_from_completed_events": 0,
+  "resumed_from_completed_replays": 0,
+  "sampled_grid_points_total": 4639744199,
+  "status": "G7R6_A2_PRODUCTION_EXECUTION_COMPLETED",
+  "temporal_non_support_replays": 1912341,
+  "temporal_support_replays": 107740,
+  "unresolved_boundary_count_total": 0,
+  "wall_seconds_this_invocation": 10999.50477,
+  "zero_support_events": 1
+}

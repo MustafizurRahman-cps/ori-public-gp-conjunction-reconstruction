@@ -1,0 +1,65 @@
+{
+  "analysis_role": "count-only pre-propagation A2 workload characterization",
+  "artifact_id": "G7R6_A2_WORKLOAD_COUNT",
+  "chronology_source": "results\\g6\\G6_Final_Causal_History_Audit.csv",
+  "constraints": {
+    "cal0_refit_performed": false,
+    "candidate_generation_performed": false,
+    "candidate_refinement_performed": false,
+    "confirmatory_metrics_used_for_chronology": false,
+    "g6_membership_changed": false,
+    "miss_distance_computed": false,
+    "network_access_performed": false,
+    "orbital_propagation_performed": false,
+    "predecessor_evidence_content_opened": false,
+    "reference_association_performed": false,
+    "s05_computed": false,
+    "s06_computed": false,
+    "s07_computed": false,
+    "sgp4_imported_or_called": false,
+    "tca_computed": false
+  },
+  "event_initialization": {
+    "events_with_both_objects_unavailable_at_window_start": 33,
+    "events_with_exactly_one_object_unavailable_at_window_start": 448,
+    "zero_replay_events": 0
+  },
+  "event_replay_count_distribution": {
+    "maximum": 664,
+    "mean": 291.62422405081566,
+    "median": 283,
+    "minimum": 18,
+    "p90_nearest_rank": 421,
+    "p95_nearest_rank": 477,
+    "p99_nearest_rank": 542,
+    "quantile_method": "empirical nearest-rank"
+  },
+  "frozen_input_sha256": {
+    "docs\\research\\DR-0054_G7_R6_A2_Workload_Count_Plan_Freeze.md": "6ebe3a2b52680d66438e2daceb9e0609c5c1ad04a6de5d5f2159d597935009e8",
+    "docs\\research\\G7_R6_A2_Workload_Count_Plan.md": "4b7928b375d1aaab1e45b1f48208de882df1a01ca9cf53a1cf3c576398622343",
+    "results\\g6\\G6_Final_Causal_History_Audit.csv": "41802759162ef4889b071aa6f15391d48a7a96cce7ededdd99c8e1d8a3ebc924"
+  },
+  "interpretation": "Execution-planning workload only. Replay counts are not accuracy, reconstruction success, warning lead time, operational latency, collision risk, or conjunction-discovery performance.",
+  "parent_head": "2d5834ff387e54c3ee6a30deb6afca6f40ec6371",
+  "population": {
+    "events": 6927,
+    "object_disjoint": true,
+    "objects": 13854
+  },
+  "raw_history_scan": {
+    "exact_180d_main_rows": 5153040,
+    "main_raw_files_read": 1386,
+    "predecessor_evidence_files_opened": 0,
+    "raw_main_rows_scanned": 5245230,
+    "total_causal_history_records_reconciled": 5165579,
+    "valid_frozen_predecessor_records_not_reopened": 12539
+  },
+  "reporting_window_clock": {
+    "exact_eligible_A2_replay_epochs": 2020081,
+    "object_level_unique_in_window_publication_timestamps": 2643976,
+    "pair_union_timestamps_excluded_before_pair_initialization": 48612,
+    "pair_union_unique_in_window_timestamps": 2068693,
+    "raw_in_window_publication_rows": 2644516,
+    "simultaneous_pair_publication_timestamps": 575283
+  }
+}

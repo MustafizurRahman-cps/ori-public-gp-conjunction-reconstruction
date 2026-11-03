@@ -1,0 +1,55 @@
+{
+  "CAL0_refit_performed": false,
+  "GP_HISTORY_accessed": false,
+  "analysis_role": "POST_CONFIRMATORY_PROPAGATION_HORIZON_SENSITIVITY",
+  "automatic_retry_performed": false,
+  "candidate_output": "results/g7/G7D_H7_Candidates.csv",
+  "candidate_output_sha256": "1f32718dc5607ed3d5b8d6a75c6bdd728fe6518b39e49bba607339cf71793791",
+  "candidate_rows": 1299383,
+  "completed_checkpoint_events_at_start": 0,
+  "completed_utc": "2026-09-27T04:17:15.392584Z",
+  "dependency_hashes": {
+    "data/raw/g6/G6_48H_Replay_Selected_GP_Cache.jsonl": "b77cf2893cf92b2e577bf04f5f23d67dc6be31b9d1e8aeafe0e40efd6b08ed69",
+    "results/g6/G6_48H_Replay_Input_Selection.csv": "6d03f0b4c7104b7cbac76b649bedc87e9f497f297dccc19f2270e7fec5552095",
+    "scripts/g6/generate_g6_preoutcome_candidates.py": "bce2a4b5e4dab8d0c4e461e2acb4dbac8afe22d3ac412922ba3670a832adcecb",
+    "scripts/g7/g7d_horizon_numerics.py": "6bba58d77f1c91f1d19fc25de684be1079d66e0808a428e9fa44a213d2ba48a0"
+  },
+  "environment": {
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.18.1",
+      "sgp4": "2.27"
+    },
+    "platform": "Windows-11-10.0.26100-SP0",
+    "python": "3.12.14"
+  },
+  "event_output": "results/g7/G7D_H7_Event_Status.csv",
+  "event_output_sha256": "418348e3389b47462d196ccbc53d0a4a0e90b0c7a4a9f17e93de51a3a75c2595",
+  "event_status_counts": {
+    "CANDIDATE_SET_READY": 6889,
+    "PROPAGATION_FAILURE": 1,
+    "UNRECOVERED_REFINEMENT_FAILURE": 37
+  },
+  "events": 6927,
+  "executor_sha256": "488c99aec614cd51c6ae3682fb8ef404fc767d6417681b09c82e2f5b1c4aa48d",
+  "frozen_H5_anchor_rerun": false,
+  "horizon_days": 7,
+  "local_work_db": "data/raw/g7/G7D_H7_Candidate_Work.sqlite3",
+  "local_work_db_committable": false,
+  "method_retuning_performed": false,
+  "network_requests": 0,
+  "next_safe_action": "INDEPENDENT_AUDIT_BEFORE_REFERENCE_ASSOCIATION",
+  "objects": 13854,
+  "protected_reference_accessed": false,
+  "reference_association_performed": false,
+  "started_utc": "2026-09-27T04:01:57.346102Z",
+  "status": "G7D_H7_CANDIDATE_GENERATION_PASS",
+  "temporal_stratum_counts": {
+    "G6-T1": 1386,
+    "G6-T2": 1386,
+    "G6-T3": 1385,
+    "G6-T4": 1385,
+    "G6-T5": 1385
+  },
+  "wall_seconds_this_invocation": 918.059381900006
+}
